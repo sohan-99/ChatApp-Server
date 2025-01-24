@@ -16,7 +16,8 @@ try {
 }
 app.use("/user", userRoute);
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('fucking great stuff here');
+  
 })
 
 app.listen(PORT, () => {
